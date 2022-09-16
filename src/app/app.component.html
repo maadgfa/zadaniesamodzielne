@@ -1,0 +1,13 @@
+<h2>Liczba kursów:{{nazwyKursu.length}}</h2>
+<ol>
+  <li *ngFor="let kurs of nazwyKursu ">{{kurs}}</li>
+</ol>
+<form>
+  <label for="idElementuktoregodotyczy">Imie i nazwisko</label>
+  <br>
+  <input type="text" name="nazw" id="idElementuktoregodotyczy"><br>
+  <label for="idNumerukursu">Numer kursu:</label><br>
+  <input type="number"><br>
+  <button>Zapisz do kursu</button>
+
+</form>
